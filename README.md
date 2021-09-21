@@ -9,7 +9,7 @@ ES6 template strings are great, but they preserve everything between the backtic
 Sometimes I want to indent my template literals to make my code more readable without including all those spaces in the
 string.
 
-Outdent will remove those leading spaces, as well as the leading and trailing newlines.
+Outdent will remove those leading spaces based on the indentation of the first line of text, as well as the leading and trailing newlines.
 
 ### Usage
 
